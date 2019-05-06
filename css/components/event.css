@@ -1,0 +1,50 @@
+.event {
+  box-shadow: 1px 3px 6px rgba(10,10,10,0.2);
+  background-color: rgb(255,255,255);
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.event > img {
+  margin: 10px 10px;
+}
+
+.event-info h2,
+.event-info p {
+  margin: 0px;
+}
+
+.event-info > h2 {
+  font-family: 'Open Sans';
+  font-size: 24px;
+}
+
+.event-info > p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+.reach {
+  margin: 20px;
+}
+
+.reach > a {
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 5px 37px;
+  line-height: 30px;
+  border: 1px solid;
+  border-color: rgba(170,170,170,0.6);
+  color: rgba(170,170,170,0.6);
+  transition: 0.3s;
+}
+
+.reach > a:hover {
+  background-color: rgba(190,190,190,0.2);
+  color: rgba(170,170,170,0.8);
+  border-color: rgba(170,170,170,0.8);
+}
+
