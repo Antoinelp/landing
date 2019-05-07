@@ -41,15 +41,15 @@
   padding: 5px 50px;
   line-height: 30px;
   border: 1px solid;
-  border-color: rgba(170,170,170,0.6);
-  color: rgba(170,170,170,0.6);
+  border-color: rgba(150,150,150,0.6);
+  color: rgba(150,150,150);
   transition: 0.3s;
 }
 
 .reach > a:hover {
-  background-color: rgba(190,190,190,0.4);
-  color: rgba(170,170,170,0.8);
-  border-color: rgba(170,170,170,0.8);
+  color: black;
+  border-color: black;
+  text-decoration: none;
 }
 
 .reach p {
