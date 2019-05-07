@@ -1,10 +1,11 @@
 .event {
   box-shadow: 2px 5px 8px rgba(10,10,10,0.2);
   background-color: rgb(255,255,255);
-  margin: 20px;
+  margin: 20px 20px 20px 150px;
   display: flex;
   align-items: center;
   border-radius: 0px;
+  width: 650px;
 }
 
 .image {
@@ -13,7 +14,7 @@
 
 .event-info {
   flex-grow: 1;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .event-info h2,
