@@ -1,15 +1,19 @@
 .event {
-  box-shadow: 1px 3px 6px rgba(10,10,10,0.2);
+  box-shadow: 2px 5px 8px rgba(10,10,10,0.2);
   background-color: rgb(255,255,255);
   margin: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
-.event > img {
-  margin: 10px 10px;
+.image {
+  border: none;
+}
+
+.event-info {
+  flex-grow: 1;
+  padding-left: 10px;
 }
 
 .event-info h2,
@@ -34,7 +38,7 @@
 .reach > a {
   border-radius: 30px;
   text-decoration: none;
-  padding: 5px 37px;
+  padding: 5px 50px;
   line-height: 30px;
   border: 1px solid;
   border-color: rgba(170,170,170,0.6);
@@ -43,8 +47,13 @@
 }
 
 .reach > a:hover {
-  background-color: rgba(190,190,190,0.2);
+  background-color: rgba(190,190,190,0.4);
   color: rgba(170,170,170,0.8);
   border-color: rgba(170,170,170,0.8);
+}
+
+.reach p {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
